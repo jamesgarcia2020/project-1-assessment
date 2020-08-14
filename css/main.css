@@ -1,0 +1,35 @@
+section {
+    display: flex;
+    /* defaults to row layout */
+    justify-content: center;
+    /* centers items horizontally in row layout */
+    align-items: center;
+    /* centers vertically in row layout */
+    /* flex-direction: column; will set layout to column instead of row */
+    flex-direction: column;
+}
+
+span {
+color: red;
+}
+
+#plus {
+    background: grey;
+    color: white;
+}
+
+#minus {
+    background: grey;
+    color: white;
+}
+
+#plus:hover {
+    background: white;
+    color: grey;
+}
+
+#minus:hover {
+    background: white;
+    color: grey;
+}
+
