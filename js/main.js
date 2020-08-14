@@ -17,6 +17,9 @@ init()
 
 function render() {
     span.textContent = count;
+    if(count < 0){
+        span.style.color = "red"
+    }
 
 
 
